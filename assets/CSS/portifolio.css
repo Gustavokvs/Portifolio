@@ -1,0 +1,169 @@
+h1 {
+    text-transform: uppercase;
+}
+
+.cabecalho {
+    padding: 20px;
+    color: rgb(250, 244, 244);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.nomeEFoto {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.nomeEFoto h2 {
+    font-size: medium;
+
+}
+
+.minha-foto {
+    box-sizing: border-box;
+    border: 0.2em solid #7fffd4;
+    border-radius: 10px;
+}
+
+.minha-foto:hover {
+    width: 18em;
+   
+    transition: 0.4s;
+}
+
+li {
+    display: inline;
+}
+
+div h2 {
+    font-size: 30px;
+}
+
+div a {
+    display: inline;
+    padding: 16px;
+    font-size: 22px;
+    color: #7fffd4;
+    text-decoration: none;
+
+}
+
+div a:hover {
+    color: rgb(204, 0, 95);
+    font-size: 1.5em;
+    transition: 1s;
+}
+
+.sobremim h3 {
+    text-align: center;
+    margin: 0 4em 1em;
+    font-size: 23px;
+    line-height: 1.5;
+    clear: left;
+}
+
+.sobremim h1 {
+    font-size: 2em;
+    margin: 4em 0 2em;
+    text-align: center;
+    clear: left;
+}
+
+.carreira h1 {
+    font-size: 2em;
+    margin: 2em 0 2em;
+    text-align: center;
+}
+
+.carreira h2 {
+    text-align: center;
+    font-size: 23px;
+    margin: 1em 4em 1em;
+    clear: left;
+}
+
+.carreira ul {
+    padding: 60px;
+}
+
+.carreira li {
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: underline;
+    display: flex;
+    text-align: start;
+}
+
+.Contato h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.Contato h2 {
+    margin: 1.5em 0 2em;
+    font-size: 23px;
+    clear: left;
+    text-align: center;
+}
+
+.Contato strong {
+    text-decoration: underline;
+}
+
+.Contato strong:hover {
+    color: aqua;
+    font-size: 1.5em;
+    transition: 1s;
+}
+
+.copyright {
+    display: inline;
+    text-align: center;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 20px 0 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: aquamarine;
+}
+
+
+@media screen and (max-width: 600px) {
+    div a {
+        font-size: 16px;
+    }
+
+    .carreira li {
+        margin: 0 10px 0;
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    div a {
+        font-size: 10px;
+    }
+
+    .carreira ul {
+        padding: 0;
+    }
+
+    .carreira li {
+        padding: 0 10 0;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+}
